@@ -1,4 +1,5 @@
-import LCSI
+from skfeature.function.information_theoretical_based import LCSI
+
 
 
 def cife(X, y, **kwargs):
