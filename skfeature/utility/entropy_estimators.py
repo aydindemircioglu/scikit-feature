@@ -100,7 +100,7 @@ def midd(x, y):
     Discrete mutual information estimator given a list of samples which can be any hashable object
     """
 
-    return -entropyd(zip(x, y))+entropyd(x)+entropyd(y)
+    return -entropyd(list(zip(x, y)))+entropyd(x)+entropyd(y)
 
 
 def cmidd(x, y, z):
@@ -108,7 +108,7 @@ def cmidd(x, y, z):
     Discrete mutual information estimator given a list of samples which can be any hashable object
     """
 
-    return entropyd(zip(y, z))+entropyd(zip(x, z))-entropyd(zip(x, y, z))-entropyd(z)
+    return entropyd(list(zip(y, z)))+entropyd(list(zip(x, z)))-entropyd(list(zip(x, y, z)))-entropyd(z)
 
 
 def hist(sx):
