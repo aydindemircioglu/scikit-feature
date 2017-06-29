@@ -18,8 +18,10 @@ Scikit-learn
 
 ### Steps:
 Install it via
+
     pip3 install git+https://github.com/aydindemircioglu/scikit-feature
 
+Make sure above dependencies are installed, especially scikit-learn.
 
 
 ## Project website
