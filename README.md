@@ -8,7 +8,7 @@ It serves as a platform for facilitating feature selection application, research
 
 ## Installing scikit-feature
 ### Prerequisites:
-Python 2.7
+Python 3
 
 NumPy
 
@@ -17,15 +17,10 @@ SciPy
 Scikit-learn
 
 ### Steps:
-After you download scikit-feature-1.0.0.zip from the project website (http://featureselection.asu.edu/), unzip the file.
+Install it via
+    pip3 install git+https://github.com/aydindemircioglu/scikit-feature
 
-For Linux users, you can install the repository by the following command:
 
-    python setup.py install
-
-For Windows users, you can also install the repository by the following command:
-
-    setup.py install
 
 ## Project website
 Instructions of using this repository can be found in our project webpage at http://featureselection.asu.edu/
